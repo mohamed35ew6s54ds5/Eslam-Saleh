@@ -1,0 +1,245 @@
+/* style.css */
+
+body {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+.header p {
+    margin: 5px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #6c757d;
+    margin-right: 0rem;
+
+}
+
+.navigation {
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    z-index: 999;
+}
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    z-index: 999;
+}
+
+.navigation a:hover {
+    background-color: #495057;
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.main img {
+    border-radius: 20px;
+    max-width: 78%;
+    height: auto;
+}
+.text-content{
+    display: flex;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.text-content h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    
+}
+.text-content p{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 0px;
+
+}
+.pop{
+    margin-right: 200;
+    color: forestgreen;
+}
+.locion {
+    margin-top: -20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.locion h2 {
+    margin-top: 0px;
+    color: rgb(231, 154, 10);
+    margin-bottom: 10px  ;
+}
+
+.material-symbols-outlined {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-image: url('icon.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 10px;
+     
+}
+.container {
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(179, 171, 152);
+}
+.container text{
+    margin-top: 20px;
+}
+.container a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.container h2 {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 0px;
+    color: black;
+}
+.container p{
+    margin-left: 20px;
+    margin-top: 0px;
+    color: rgb(255, 0, 0);
+
+}
+.container img{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 115px;
+}
+.hr {
+    box-shadow: #495057
+  }
+  .start-order {
+      text-align: center;
+      margin-bottom: 0px;
+  }
+.start-order h2{
+    font-size: 50px;
+    color: darkorange;
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+.start-order p {
+    font-size: 30px;
+    margin-top: 0px;
+}
+.cinter img{
+    max-width: 75%;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.contact-us {
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+  }
+  
+  .contact-us h2 {
+      color: floralwhite;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: -20px;
+  }
+  
+  .contact-us p {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  .number {
+      border-radius: 20px;
+    background-color: rgb(190, 77, 77)
+}
+  .sochial h2{
+      display: flex;
+      align-items: center;
+      margin-top: -10px;
+  }  
+  .sochial-media {
+      margin-top: -120px;
+      padding: 70px;
+      font-size: 50px;
+
+  }
+  .floating-phone {
+      opacity: 30%;
+    position: fixed; /* Make the phone number fixed to the viewport */
+    bottom: 20px; /* Position it at the bottom of the screen */
+    right: 20px; /* Position it on the right side */
+    z-index: 999; /* Ensure it stays on top of other elements */
+    background-color: #fff; /* Customize background color */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+  }
+  
+  .floating-phone img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .floating-phone:hover {
+    background-color: #f2f2f2; /* Change background color on hover */
+  }
+  
+  .phone-number {
+    font-size: 18px;
+    font-weight: bold;
+  }
+.Desginer {
+    text-align: center;
+}
+.Desginer h2{
+    margin-top: 20px;
+}
+.Desginer p{
+    color: aliceblue;
+    margin-top: 10px;
+}
